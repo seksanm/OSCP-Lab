@@ -1,0 +1,40 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Build outputs
+/dist
+/build
+/out
+
+# Environment files
+.env
+.env.local
+
+# IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Backup and temporary files
+*.bak
+*~
+*.swp
+
+# Compiled code
+*.class
+*.o
+*.so
+*.exe
+
+# Secrets (do not commit)
+secret_config.json
